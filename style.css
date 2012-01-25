@@ -1,0 +1,42 @@
+
+body {
+	margin-top: -1.5em;
+}
+
+h1 {
+	text-align: center;
+	border: 1px solid red;
+	padding: .5em 0 .5em 0;
+	margin-left: -.5em;
+	margin-right: -.5em;
+}
+
+ul#nav {
+	float: left;
+	margin-top: 0px;
+	margin-left: -2em;
+	list-style-type: none;
+	clear:bottom;
+	width: 7em;
+}
+
+div#pagecontent {
+	margin-left: 8.5em;
+	border-left: dashed 1px lightgray;
+	padding-left: 0.5em;
+}
+
+img {
+	float: right;
+	border: 1px solid red;
+	margin-left: 0.5em;
+	margin-right: 2em;
+}
+
+table {
+	valign: top;
+}
+
+table caption {
+	vertical-align: left;
+}
