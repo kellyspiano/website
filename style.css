@@ -5,36 +5,66 @@ body {
 
 h1 {
 	text-align: center;
-	border: 1px solid red;
 	padding: .5em 0 .5em 0;
 	margin-left: -.5em;
 	margin-right: -.5em;
+	color: purple;
 }
 
 ul#nav {
 	float: left;
 	margin-top: 0px;
-	margin-left: -2em;
+	margin-left: -2.5em;
 	list-style-type: none;
-	clear:bottom;
-	width: 7em;
+	clear: bottom;
+	width: 8em;
+}
+
+ul#nav li {
+	background-color: purple;
+	padding: 0.2em;
+	margin-bottom: 0.3em;
+	border-radius: 0.4em;
+}
+
+ul#nav a:link {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ul#nav a:hover {
+	text-decoration: underline;
 }
 
 div#pagecontent {
-	margin-left: 8.5em;
-	border-left: dashed 1px lightgray;
+	margin-left: 9.5em;
+	border-left: dashed 1px purple;
 	padding-left: 0.5em;
 }
 
 img {
 	float: right;
-	border: 1px solid red;
 	margin-left: 0.5em;
 	margin-right: 2em;
+	border-radius: 0.5em;	
 }
 
 table {
 	valign: top;
+}
+
+table th {
+	text-align: left;
+	background-color: purple;
+	color: white;
+	font-weight: bold;
+	padding: 0.2em;
+	border-radius: 0.5em;
+}
+
+table {
+	text-align: right;
 }
 
 table caption {
