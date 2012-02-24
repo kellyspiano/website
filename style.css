@@ -43,6 +43,10 @@ div#pagecontent {
 	padding-left: 0.5em;
 }
 
+input { 
+    border-width: 1px; 
+}
+
 img {
 	float: right;
 	margin-left: 0.5em;
